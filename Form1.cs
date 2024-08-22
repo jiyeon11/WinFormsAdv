@@ -61,5 +61,15 @@ namespace WinFormsAdv
         {
 
         }
+
+        private void 열기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog old = new OpenFileDialog();
+            old.Filter = "텍스트 파일(*.txt)[*.txt]|모든 파일(*.*|[*.*";
+            if(old.ShowDialog() == DialogResult.OK)
+            {
+                richTextBox1.Text = System.IO.File.ReadAllText(old.FileName);
+            }
+        }
     }
 }
