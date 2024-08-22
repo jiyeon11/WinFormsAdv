@@ -21,5 +21,10 @@ namespace WinFormsAdv
         {
             Application.Exit();
         }
+
+        private void 도움말보기ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.youtube.com/watch?v=TLut9aAQNvs");
+        }
     }
 }

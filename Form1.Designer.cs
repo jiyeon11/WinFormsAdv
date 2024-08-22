@@ -327,6 +327,7 @@
             this.도움말보기ToolStripMenuItem.Name = "도움말보기ToolStripMenuItem";
             this.도움말보기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.도움말보기ToolStripMenuItem.Text = "도움말 보기";
+            this.도움말보기ToolStripMenuItem.Click += new System.EventHandler(this.도움말보기ToolStripMenuItem_Click);
             // 
             // 피드백보내기ToolStripMenuItem
             // 
