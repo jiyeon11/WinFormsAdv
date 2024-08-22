@@ -56,5 +56,10 @@ namespace WinFormsAdv
                 toolStripProgressBar1.Value -= toolStripProgressBar1.Step;
             }
         }
+
+        private void richTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
