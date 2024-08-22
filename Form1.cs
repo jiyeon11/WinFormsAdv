@@ -17,9 +17,9 @@ namespace WinFormsAdv
             InitializeComponent();
         }
 
-        private void 끈내기ToolStripMenuItem_Click(object sender, EventArgs e)
+        private void 끝내기ToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            Application.Exit();
         }
     }
 }
